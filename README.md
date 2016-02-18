@@ -10,4 +10,4 @@ Student, lub wykladowca loguje sie na stronie za pomoca numeru indeksu/identyfik
 Nastepnie moze wybrac interesujacy go czas rezerwacji. W panelu uzytkownika mozna usuwać swoje rezerwacje.
 
 
-[Login page](https://cloud.githubusercontent.com/assets/12412189/13156475/f2c16f6e-d682-11e5-9df6-0d73ed071472.png)
+![Login page](https://cloud.githubusercontent.com/assets/12412189/13156475/f2c16f6e-d682-11e5-9df6-0d73ed071472.png)

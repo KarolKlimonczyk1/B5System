@@ -20,3 +20,9 @@ Nastepnie moze wybrac interesujacy go czas rezerwacji. W panelu uzytkownika mozn
 </br>
 <b>Strona wyboru godziny</b>
 ![Login page](https://cloud.githubusercontent.com/assets/12412189/13156496/04aec15e-d683-11e5-8ae3-ede93a366873.png)
+
+
+</br><b>Na temat kodu: </b> </br>
+Kod nie jest optymalny, ani dopracowany. Celem byla nauka Springa, a to moj pierwszy projekt z uzyciem tego Frameworka. 
+Front-endem sie raczej nie bawie, z tego powodu strona nie olsniewa wygladem. Podobnie jak kod w JSP.
+Projekt tymczasowo zawieszony, ale na pewno do niego powroce.

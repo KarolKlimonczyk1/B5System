@@ -126,9 +126,6 @@ public class ReservationDAOImpl implements ReservationDAO {
 							isEmpty=false;
 			     }
 				
-				
-				
-				
 	     }
 			
 	     
@@ -181,12 +178,6 @@ public class ReservationDAOImpl implements ReservationDAO {
 				.setParameter("tempdate", date)
 			    .setParameter("tempindex", indexNumber).executeUpdate(); 
 		
-	
-		
 	}
-
-	
-
-	
 
 }

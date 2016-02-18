@@ -27,6 +27,24 @@ public class Reservation {
 
 	@Column(name = "dateFinish")
 	String dateFinish;
+	
+	public Reservation() {
+		super();
+	}
+
+	
+	
+	public Reservation(int idReservation, String room, int indexNumber,
+			String dateStart, String dateFinish) {
+		super();
+		this.idReservation = idReservation;
+		this.room = room;
+		this.indexNumber = indexNumber;
+		this.dateStart = dateStart;
+		this.dateFinish = dateFinish;
+	}
+
+
 
 	public int getIdReservation() {
 		return idReservation;

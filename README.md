@@ -24,5 +24,5 @@ Nastepnie moze wybrac interesujacy go czas rezerwacji. W panelu uzytkownika mozn
 
 </br><b>Na temat kodu: </b> </br>
 Kod nie jest optymalny, ani dopracowany. Celem byla nauka Springa, a to moj pierwszy projekt z uzyciem tego Frameworka. 
-Front-endem sie raczej nie bawie, z tego powodu strona nie olsniewa wygladem. Podobnie jak kod w JSP.
+Front-endem sie raczej nie zajmuje, z tego powodu strona nie olsniewa wygladem. Podobnie jak kod w JSP.
 Projekt tymczasowo zawieszony, ale na pewno do niego powroce.

@@ -26,7 +26,7 @@
 		<ul>
 			<li><a href="http://localhost:8080/app/">Home</a></li>
 			<li><a
-				href="http://localhost:8080/app/userpanel/${pageContext.request.userPrincipal.name}">User
+				href="http://localhost:8080/app/userpanel/">User
 					panel</a></li>
 			<li><a href="http://localhost:8080/app/logout">Logout</a></li>
 		</ul>

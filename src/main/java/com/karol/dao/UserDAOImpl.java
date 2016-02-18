@@ -6,7 +6,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
 import org.springframework.stereotype.Repository;
 
@@ -20,7 +19,7 @@ public class UserDAOImpl implements UserDAO{
 	private ShaPasswordEncoder  passwordEncoder;
 	
 	private static final Logger logger = LoggerFactory
-			.getLogger(PersonDAOImpl.class);
+			.getLogger(UserDAOImpl.class);
 
 	@Inject
 	private SessionFactory sessionFactory;

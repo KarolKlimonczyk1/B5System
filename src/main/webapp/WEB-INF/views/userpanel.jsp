@@ -33,18 +33,21 @@
         <th width="80">Room</th>
         <th width="120">Date</th>
         <th width="90">Delete</th>
-<!--         <th width="60">Edit</th> -->
-<!--         <th width="60">Delete</th> -->
     </tr>
     <c:forEach items="${reservationList}" var="reservation">
         <tr>
             <td>${reservation.room}</td>
             <td width="250" >${reservation.dateStart} <br> ${reservation.dateFinish}</td>
             
-            <td><a href="<c:url value='/remove_reservation/${reservation.room}/${reservation.dateStart }/${pageContext.request.userPrincipal.name}' />
-            " >Click to remove</a></td> 
-<%--             <td><a href="<c:url value='/edit/${person.id}' />" >Edit</a></td> --%>
-<%--             <td><a href="<c:url value='/remove/${person.id}' />" >Delete</a></td> --%>
+            
+            <td> <form action="remove_reservation?${_csrf.parameterName}=${_csrf.token}" method="POST" >
+            		 <input id="room" name="room" value="${reservation.room}" type="hidden">
+            		 <input id="dateStart" name="dateStart" value="${reservation.dateStart }" type="hidden">
+            		 
+            		 <input type="submit"
+						class="my-second-button" value="Click to remove" >
+            			</form>
+            	</td>
         </tr>
     </c:forEach>
     </table>

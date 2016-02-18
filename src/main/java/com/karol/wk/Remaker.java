@@ -52,7 +52,6 @@ public class Remaker {
 		list.add(tempStart);
 		list.add(tempFinish);
 		
-		System.out.println("TempStart: "+tempStart+" finish: "+tempFinish);
 		return list;
 		
 		

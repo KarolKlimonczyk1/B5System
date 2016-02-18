@@ -1,0 +1,320 @@
+html {
+	
+}
+
+html body {
+	/* 	background-image: */
+	/* 		url("http://wallpaper.pickywallpapers.com/1920x1080/giant-chalkboard-in-classroom.jpg"); */
+	background-image: url(images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-position: center center;
+	
+	
+}
+
+body,#mainWrapper {
+	height: 100%;
+}
+
+body,#mainWrapper,.form-control {
+	font-size: 12px !important;
+}
+
+#mainWrapper {
+	height: 100vh;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+#authHeaderWrapper {
+	clear: both;
+	width: 100%;
+	height: 3%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.login-container {
+	margin-top: 50px;
+/* 	background-color: floralwhite; */
+	background-color:rgba(255,0,0, 0.0);
+	width: 40%;
+	left: 30%;
+	position: absolute;
+}
+
+.login-card {
+	width: 80%;
+	margin: auto;
+}
+
+.login-form {
+	padding: 10%;
+}
+
+.ui-datepicker {
+	margin: 0 auto;
+}
+
+html h1 {
+	color: white;
+}
+
+.panel-button {
+	border: 1px solid blue;
+}
+
+.menu-container {
+	/* 	background:rgba(51, 122, 183,0.5); */
+	background: rgba(53, 57, 60, 0.6);
+	/* 	background: #337AB7; */
+	padding: 10px;
+	
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	position: fixed;
+	width: 100%;
+}
+
+.menu-container ul {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.menu-container ul li {
+	display: inline;
+}
+
+.menu-container ul li a {
+	color: white;
+	/* 	background: #337AB7; */
+	padding: 10px;
+	margin-right: 15px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+.menu-container ul li a:hover {
+	background: #51525a;
+	transition: all 1s;
+}
+
+.myfooter {
+	background: rgba(53, 57, 60, 0.6);
+	padding: 5px;
+	clear: both;
+	color: black;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	
+}
+
+.myfooter ul {
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.myfooter ul li {
+	display: inline-block;
+	
+	
+}
+
+.myfooter ul li a {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+/* 	padding: 5px; */
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+
+
+.myfooter ul li a:hover {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	text-indent: -9999px;
+	background-color: #626669;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+/* 	padding: 5px; */
+	margin-right: 15px;
+	text-decoration: none;
+	border-radius: 17px;
+	transition: all 1s;
+}
+
+.myfooter-facebook {
+	background-image: url(images/facebook2.png);
+	
+	
+}
+
+.myfooter-twitter {
+	background-image: url(images/twitter.png);
+	
+}
+
+.myfooter-youtube {
+	background-image: url(images/youtube.png);
+	
+	
+}
+
+.myfooter-text {
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 10px;
+	text-align: center;
+/* 	padding: 5px; */
+	margin-right: 5px;
+	text-decoration: none;
+	display: inline;
+	margin-bottom: 20px;
+}
+
+.mybody-content{
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 20px;
+	padding: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+
+.mybody-login-text{
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 15px;
+	padding: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+table {
+	text-align: center;
+	background: rgba(53, 57, 60, 0.6);
+	margin: 0 auto;
+	color: white;
+	
+	 overflow-y:scroll; 
+     height: 100px;
+/*     position:absolute; */
+
+font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 15px;
+    
+}
+
+.second_table {
+	text-align: center;
+	background: rgba(53, 57, 60, 0.4);
+	border-color: rgba(53, 57, 60, 0.7);
+	margin: 0 center;
+	color: white;
+	display: inline-table;
+	vertical-align: top;
+	
+	 overflow-y:scroll; 
+    height: 100px;  
+/*     position:absolute; */
+
+font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 15px;
+}
+
+.second_table tr {
+	overflow-y:scroll; 
+/*     height: 100px;   */
+}
+a {
+	color: white;
+}
+
+.mycenter {
+	text-align: center
+}
+
+
+.mybutton {
+	margin: 0 center;
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 22px;
+	
+	border-radius: 7px;
+  width: 255px;
+  height: 70px;
+  color: #fff;
+  background-color: rgba(53, 57, 60, 0.7);
+  border-color: rgba(53, 57, 60, 0.5);
+}
+
+.mybutton:hover {
+  color: #fff;
+  background-color: rgba(53, 57, 60, 0.9);
+  border-color: rgba(53, 57, 60, 0.5);
+}
+
+
+.my-second-button {
+	margin: 0 center;
+	
+	font-family:Georgia,serif;
+	color: white;
+	font-variant: small-caps; text-transform: none; font-weight: 100; margin-bottom: 0;
+	font-size: 22px;
+	border-radius: 7px;
+  width: 255px;
+  height: 70px;
+  color: #fff;
+  background-color: rgba(53, 57, 60, 0.5);
+  border-color: rgba(53, 57, 60, 0.5);
+}
+
+.my-second-button:hover {
+  color: #fff;
+  background-color: rgba(53, 57, 60, 0.9);
+  border-color: rgba(53, 57, 60, 0.5);
+}
+
+
+select option {
+    
+    margin-left: 2px;
+    background:  rgba(53, 57, 60, 0.9);
+   background-color: rgba(53, 57, 60, 0.9);
+    color: white;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+
+
